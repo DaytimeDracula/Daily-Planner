@@ -1,0 +1,76 @@
+/*Color Pallete */
+:root {
+  --Light: #ECDBBA;
+  --Black: #161616;
+  --FutureTime: #346751;
+  --PastTime: #C84B31;
+}
+/* Custom Font Style*/
+* {
+  font-family: 'Fira Sans';
+}
+/* Text */
+body {
+  font-size: 16px;
+  line-height: 1;
+}
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: var(--Black);
+  border-left: 1px solid black;
+  padding: 10px;
+}
+/*Header and description*/
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: #ECFCFF;
+  border-radius: 0;
+  border-bottom: 10px solid var(--Black);
+}
+.description {
+  white-space: pre-wrap;
+}
+/*Save button*/
+.saveBtn {
+  border-left: 1px solid var(--Black);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #5EDFFF;
+  color: var(--Black);
+}
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+/* Blocks */
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+/* Hour */
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid var(--Light);
+}
+.hour {
+  background-color: var(--Light);
+  color: var(--Black);
+  border-top: 1px dashed var(--Black);
+}
+/* Past, present, and future color switch */
+.present {
+  background-color: #3E64FF;
+  color: var(--Black);
+}
+.past {
+  background-color: var(--PastTime);
+  color: var(--Black);
+}
+.future {
+  background-color: var(--FutureTime);
+  color: var(--Black);
+}

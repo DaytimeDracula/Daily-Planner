@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Your Daily Planner</title>
+</head>
+
+<!--Jumbotron Header-->
+
+<body class="bg-warning mb-3">
+    <header class="jumbotron align-items-center background bg-dark">
+        <h1 class="display-3">Daily Planner</h1>
+        <p class="lead">A web application for conveniently planning your Work Day down to the hour!</p>
+        <p id="today" class="lead"></p>
+    </header>
+
+    <!--Main body of page-->
+    <main>
+        <!--Hourly slots-->
+        <div class="container">
+            <div id="hour-9" class="row time-block">
+                <div class="col-md-1 hour">9AM</div>
+                <textarea class="col-md-10 description"></textarea>
+                <button class="btn saveBtn col-md-1">Save<i class="fas fa-save"></i></button>
+            </div>
+            <div id="hour-10" class="row time-block">
+                <div class="col-md-1 hour">10AM</div>
+                <textarea class="col-md-10 description"></textarea>
+                <button class="btn saveBtn col-md-1">Save<i class="fas fa-save"></i></button>
+            </div>
+            <div id="hour-11" class="row time-block">
+                <div class="col-md-1 hour">11AM</div>
+                <textarea class="col-md-10 description"></textarea>
+                <button class="btn saveBtn col-md-1">Save<i class="fas fa-save"></i></button>
+            </div>
+            <div id="hour-12" class="row time-block">
+                <div class="col-md-1 hour">Noon</div>
+                <textarea class="col-md-10 description"></textarea>
+                <button class="btn saveBtn col-md-1">Save<i class="fas fa-save"></i></button>
+            </div>
+            <div id="hour-13" class="row time-block">
+                <div class="col-md-1 hour">1PM</div>
+                <textarea class="col-md-10 description"></textarea>
+                <button class="btn saveBtn col-md-1">Save<i class="fas fa-save"></i></button>
+            </div>
+            <div id="hour-14" class="row time-block">
+                <div class="col-md-1 hour">2PM</div>
+                <textarea class="col-md-10 description"></textarea>
+                <button class="btn saveBtn col-md-1">Save<i class="fas fa-save"></i></button>
+            </div>
+            <div id="hour-15" class="row time-block">
+                <div class="col-md-1 hour">3PM</div>
+                <textarea class="col-md-10 description"></textarea>
+                <button class="btn saveBtn col-md-1">Save<i class="fas fa-save"></i></button>
+            </div>
+            <div id="hour-16" class="row time-block">
+                <div class="col-md-1 hour">4PM</div>
+                <textarea class="col-md-10 description"></textarea>
+                <button class="btn saveBtn col-md-1">Save<i class="fas fa-save"></i></button>
+            </div>
+            <div id="hour-17" class="row time-block">
+                <div class="col-md-1 hour">5PM</div>
+                <textarea class="col-md-10 description"></textarea>
+                <button class="btn saveBtn col-md-1">Save<i class="fas fa-save"></i></button>
+            </div>
+        </div>
+    </main>
+    <!--JS, JQuery, and Moment links-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
